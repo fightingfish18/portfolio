@@ -1,0 +1,144 @@
+/* William Smyth May
+2013-07-17
+Assignment 2
+This is the CSS sheet for the ninja turtles page!
+*/
+
+body {
+	font-size: 8pt;
+	background-image: url('http://webster.cs.washington.edu/images/moviebg.png');
+	font-family: Verdana, Tahoma, "Sans-Serif";
+	margin: 0;
+	padding: 0;
+	
+}
+
+#banner {
+	background-image: url('http://webster.cs.washington.edu/images/rancidbannerbg.png');
+	background-repeat: repeat-x;
+	height: 50px;
+}
+
+.central {
+	text-align: center;
+}
+
+#title {
+	font-size: 24pt;
+	text-shadow: 3px 3px #999999;
+	font-family: Tahoma, Verdana, Sans-Serif;
+}
+
+#title, #rottenText, .reviewText, dt {
+	font-weight: bold;
+}
+
+#main {
+	border-width: 4px;
+	border-style: solid;
+	border-color: gray;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#rotten {
+	background-image: url('http://webster.cs.washington.edu/images/rottenlargebg.png');
+	background-repeat: repeat-x;
+	width: 550px;
+	height: 83px;
+}
+
+#textImage {
+	float: right;
+	width: 250px;
+}
+
+#rottenText {
+	color: red;
+	font-size: 48pt;
+	margin-top: auto;
+	margin-bottom: auto;
+	vertical-align: top;
+	line-height: 1.35;
+}
+
+#review, #review2 {
+	width: 47%;
+}
+
+#reviewBlock {
+	width: 550px;
+}
+
+.revImg, .critic {
+	float: left;
+	padding-right: 5px;
+}
+
+#review {
+	float: left;
+	padding-left: 2%;
+}
+
+#review2 {
+	float: right;
+	padding-right: 2%;
+}
+
+#numbers {
+	text-align: center;
+	clear: both;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 0;
+}
+
+.reviewText {
+	vertical-align: middle;
+}
+
+.texts {
+	border-width: 2px;
+	border-style: solid;
+	border-color: gray;
+	background-color: #E8DC9B;
+	padding: 8px;
+	overflow: hidden;
+}
+
+
+dt {
+	margin-top: 10pt;
+}
+
+.sidebg {
+	background-color: #A2B964;
+}
+
+#validate {
+	text-align: right;
+}
+
+#sidetext {
+	padding-left: 10pt;
+	padding-right: 10pt;
+	font-family: Arial, "Sans-Serif";
+	font-size: 8pt;
+}
+
+.reviewer {
+	vertical-align: center;
+	margin-bottom: 20pt;
+	overflow: hidden;
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.publication {
+	font-style: italic;
+}

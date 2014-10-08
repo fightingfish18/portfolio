@@ -1,0 +1,125 @@
+/*
+William Smyth May
+2013-11-25
+This is the CSS style sheet for assignment 4.
+These are overrides for the bootstrap framework
+*/
+.center {
+	text-align: center;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #F5D105;
+}
+
+.nav {
+	margin: auto;
+}
+
+.topNav {
+	background-color: #750AAB;
+}
+
+h2 {
+	color: #750AAB;
+}
+
+.col-md-6 h1 {
+	text-align: center;
+	color: #750AAB;
+}
+
+.one {
+	padding-left: 3%;
+}
+
+.two {
+	padding-right: 3%;
+}
+
+iframe, .pizzaPic {
+	margin: 0 auto;
+	display: block;
+}
+
+iframe {
+	border: 0;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+ul {
+	padding-top: 1%;
+}
+
+#logo, #menu {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+#menu {
+	padding-bottom: 1%;
+}
+
+.pizzaPic {
+	height: auto;
+	width: auto;
+	max-width: 35%;
+	padding-top: 2%;
+}
+
+body {
+	background-image: url(../img/background.jpg);
+}
+
+.container {
+	background-color: white;
+	margin-top: 1%;
+	margin-bottom: 3%;
+	background-color: #F7EEC6;
+}
+
+.navbar-fixed-bottom p {
+	margin-top: 1%;
+}
+
+.navbar-fixed-bottom {
+	background-color: #FCDBFF;
+	margin-top: 1%;
+}
+
+/*Disables footer on mobile devices to avoid text being covered */
+@media screen and (max-width: 767px) {
+	.navbar-fixed-bottom {
+		display: none;
+	}
+}
+
+.page-header {
+	background-color: #f8f8f8;
+}
+
+.oven {
+	width: 30%;
+	padding: 2%;
+	margin: 0 auto;
+}
+
+.template {
+	display: none;
+}
+
+.cart-container {
+	padding-bottom: 100px;
+}
+
+.cart-item p, .cart-buttons {
+	display: inline-block;
+}
+
+.orderSpace {
+	padding-bottom: 3%;
+}

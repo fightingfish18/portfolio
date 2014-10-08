@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Home</title>
+		<link href='http://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	
+	<body>
+		<header>
+			<div class="container">
+				<ol class="breadcrumb right fix">
+					<li><a href="#" class="activeLink selector">Home</a></li>
+					<li><a href="#" class="selector">Resume</a></li>
+					<li><a href="#" class="selector">Projects</a></li>
+				</ol>
+			</div>
+		</header>
+		<div class="container">
+			<h1 class="big" id="name">Smyth May</h1>
+			<p class="desc">Developer. Student.</p>
+		</div>
+		<div class="container dark">
+			<div id="content">
+				<div class="home section activeSection">
+					<div class="sectionInner">
+						<p id="intro">
+							Welcome to my site.  Feel free to take a look around at my resume or previous work I've done. Background photo credit to Kaeley Taylor.
+						</p>
+					</div>
+				</div>
+				<div class="resume section">
+					<div class="sectionInner">
+						<h1 class="resumeSection">Education:</h1>
+							<p>
+								Present - September 2012<br>
+								University of Washington<br>
+								Informatics Major (In Progress)<br>
+								3.37 GPA
+							</p>
+							<p>
+								June 2012 - August 2010<br>
+								International School of the Eastern Seaboard<br>
+								High School Diplomma, International Baccalaureate Certificates (Spanish AB Initio, English HL, Psychology HL)
+							<p>
+						<h1 class="resumeSection">Employment:</h1>
+							<p>
+								September 2014 - July 2014<br>
+								Tyemill Software<br>
+								Seattle, WA<br>
+								Software Developer Intern<br>
+								At Tyemill, I was a software development intern who worked as part of a team to create an app to visualize financial data.  My main duties were to develop features for an assigned
+								application using Ruby on Rails, as well as Javascript.  The app my team created is to be part of a larger suite of financial tools relevant to all walks of life.
+							<p>
+								June 2014 - July 2013<br>
+								Enterprise Rent-A-Car<br>
+								Branson, MO and Seattle, WA<br>
+								Service Agent<br>
+								At Enterprise, it is my duty to assist customers with returning their vehicles.  After showing them the information they need to check out, I clean the vehicle
+								in order to prepare it for the next customer.  I also pick up customers at the start of their rental, and return them home when they return the car.  I assist
+								with maintenance of the car lot and building, as well as deliver cars to be serviced.
+							<p>
+							<p>
+								September 2012 - June 2010<br>
+								W. R. May Construction<br>
+								Harrison, AR and Pattaya, Thailand (working remotely)<br>
+								General Labor and Bookkeeping / Payroll<br>
+								While working at W. R. May Construction, it was my job to assist with general labor tasks around job sites.  This included, but was not limited to: preparing the
+								site for other workers to arrive, cleaning up the site periodically and at the end of each job, erecting wooden fences, hauling away brush, and upkeep of company property.
+							</p>
+						<h1 class="resumeSection">Skills:</h1>
+							<ul>
+								<li>C#</li>
+								<li>Java</li>
+								<li>HTML/CSS</li>
+								<li>JavaScript (including jQuery)</li>
+								<li>PHP</li>
+								<li>Ruby on Rails 4</li>
+								<li>Python 2.7</li>
+								<li>MySQL / SQL Server</li>
+							</ul>
+					</div>
+				</div>
+				<div class="projects section">
+					<div class="sectionInner">
+						<a target="_blank" href="http://students.washington.edu/wsmay1/info343/final/index.shtml"><h1>The Dawg House</h1></a>
+						<p>
+							The Dawg House is a project created by myself and three others as a final project for INFO 343 (client side web development).  The idea was to create a service
+							similar to yelp, but for housing in the University District.  On the site, users are able to view apartments, read reviews, and create reviews, which are updated
+							on the map in real time.  My role in the project was to write the JavaScript to create the map and place the markers on it.  I also wrote the PHP for users to submit
+							reviews, and to write the Latitude and Longitutde of the street addresses to our JSON object.
+						</p>
+						<a target="_blank" href="http://students.washington.edu/wsmay1/projects/fifteen.html"><h1>Fifteen Puzzle</h1></a>
+						<p>
+							Originally created for my CSE 154 class, this puzzle is how I learned to handle events and create elements with JavaScript.  The shuffle button will
+							shuffle the puzzle randomly, but it will always be a solvable solution.  This was created with raw JavaScript using no frameworks.  The HTML and basic CSS
+							were provided, and were not my work.
+						</p>
+						<h1>CNN and Sports Illustrated Search Engine (currently offline)</h1>
+						<p>
+							For this project, I built a full stack search engine used to search over Sports Illustrated and CNN articles.  This was done as a solo project over a quarter of school.
+							This includes a web crawler, query suggestion service (currently offline due to Azure issues, code samples can be provided), User Interface, and more.  The project was created
+							using C# on an Azure cloud service.  Query suggestion was completed with a Trie.  The worker role for web crawling relies on an Azure cloud queue.
+						</p>
+						<a target="_blank" href="http://ec2-54-187-40-231.us-west-2.compute.amazonaws.com"><h1>NBA Stats Search</h1></a>
+						<p>
+							This was an NBA Player's Stats search engine created as a precursor to the above project.  This is built on php with a PDO query to a MySQL database.  Everything here is running on Amazon Web Services.
+						</p>
+					</div>
+				</div>
+				<div class="section">
+				</div>
+			</div>
+		</div>
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
